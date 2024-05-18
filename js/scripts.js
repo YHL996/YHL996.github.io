@@ -96,7 +96,7 @@
         });
     });
 
-    const phrases = ["Data-driven professional turning insights into action.", "Curious learner on a journey of exploring and discovery.", "Fitness Enthusiast sculpting both body and mind."];
+    const phrases = ["Data-driven professional turning insights into action.", "Curious learner on a journey of exploring and discovery.", "Fitness enthusiast sculpting both body and mind."];
     let currentIndex = 0;
     let currentPhrase = "";
     let charIndex = 0;
