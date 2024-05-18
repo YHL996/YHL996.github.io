@@ -26,14 +26,15 @@ body.active{overflow:hidden;z-index:-1}
     border: 5px solid white; /* Adds a white frame */
     overflow: hidden; /* Ensures the image fits within the circular container */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
 }
 
 .personal-photo {
     width: 100%;
     height: auto; /* Maintains the original aspect ratio of the photo */
+    object-fit: cover;
 }
 
 .about-content {
