@@ -20,18 +20,17 @@
 
     // Animate to section when nav is clicked
     $('header a').click(function(e) {
-
         // Treat as normal link if no-scroll class
         if ($(this).hasClass('no-scroll')) return;
-
+    
         e.preventDefault();
         var heading = $(this).attr('href');
         var scrollDistance = $(heading).offset().top;
-
+    
         $('html, body').animate({
-            scrollTop: scrollDistance + 'px'
-        }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
-
+            scrollTop: scrollDistance
+        }, 300); // Reduced duration from 600 to 300 milliseconds
+    
         // Hide the menu once clicked if mobile
         if ($('header').hasClass('active')) {
             $('header, body').removeClass('active');
