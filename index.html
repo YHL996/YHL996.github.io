@@ -53,10 +53,34 @@
 
         <div id="lead-overlay"></div>
 
-        <div id="lead-down">
+        <!-- <div id="lead-down">
             <span>
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
+        </div> -->
+        <div id="lead-down" class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                </div>
+                <div class="col-sm-2 lead-down">
+                    <span>
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/yuhuilin98" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/YHL996" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:yuhui.lin98@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <!-- End #lead-down -->
     </div>
@@ -238,7 +262,7 @@
                         <h3>Iowa Graduate Business Analytics Case Competition</h3>
                         <p>April, 2024</p>
                         <p>
-                            Our team represented Purdue University's Daniels School of Business to participate the case competition. We delved into analyzing and proposing actionable recommendations for a leading sustainable aluminum packaging solutions firm. We performed data analysis, leveraged external sources, and employed advanced modeling techniques like PCA and LLMs. With a focus on operational excellence and HR strategies, our presentation captivated the panel, leading to engaging discussions and valuable feedback from judges.
+                            Our team represented Purdue University's Daniels School of Business to participate the case competition. We delved into analyzing and proposing actionable recommendations for a leading sustainable aluminum packaging solutions firm. We performed data analysis, leveraged external sources, and employed advanced modeling techniques like PCA, clustering and LLMs. With a focus on operational excellence and HR strategies, our presentation captivated the panel, leading to engaging discussions and valuable feedback from judges.
                         </p>
                         <a href="templates\project.html">View Project</a>
                     </div>
@@ -246,22 +270,7 @@
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images\data4good.png" alt="Data for Good"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Data 4 Good Case Competition</h3>
-                        <p>November, 2023</p>
-                        <p>
-                            I achieved 4th place among 290 student teams nationwide on Kaggle Leaderboard by leveraging Large Language Models (LLMs) to automate medical documentation extraction. Through meticulous model selection and prompt engineering techniques, I optimized Named Entity Recognition (NER) outputs for precise extraction of vital patient data. Employing post-processing techniques such as filling in missing values, reformatting, and error checking, I attained an impressive Word Error Rate of 0.54.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                
                 
                 <div class="project shadow-large">
                     <div class="project-image">
@@ -290,6 +299,57 @@
                         <p>February, 2024</p>
                         <p>
                             In this project, our team predicted Walmart's sales based on the dataset from a Kaggle competition. We applied tree-based models, emsemble methods, Deep Neural Networks, Long Short-term Memory (LSTM), and Transformer. We achieved a weighted root mean squared scaled error (RMSSE) of 0.686.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images\craglist.jpg"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Inappropriate content detecting</h3>
+                        <p>December, 2023</p>
+                        <p>
+                            Our team developed a model to detect inappropriate content in the posted articles on Craglist, a classified advertisements website. We scraped the website to obtain our trainning data and utilized large language model to label the data. Then, we selected the logistc regression model as the final model from a variety of models, such as SVM, Naive Bayes, Gradient Boosting, and Deep Neural Network. The final model achieved a AUC score of 0.88. The model can be applied to provide better customer experience.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images\data4good.png" alt="Data for Good"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Data 4 Good Case Competition</h3>
+                        <p>November, 2023</p>
+                        <p>
+                            I achieved 4th place among 290 student teams nationwide on Kaggle Leaderboard by leveraging Large Language Models (LLMs) to automate medical documentation extraction. Through meticulous model selection and prompt engineering techniques, I optimized Named Entity Recognition (NER) outputs for precise extraction of vital patient data. Employing post-processing techniques such as filling in missing values, reformatting, and error checking, I attained an impressive Word Error Rate of 0.54.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images\airbnb.png"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>AirBnb Super Host Analysis</h3>
+                        <p>November, 2023</p>
+                        <p>
+                            This project proposed a data-driven business strategy for Airbnb. First, we demonstrated superhosts can earn higher revenue than normal hosts. Second, we built a Gradient Boosting model to predict potential superhosts. Lastly, we recommended AirBnb provides customized incentive for these potential superhosts to drive Airbnb's profit based on our revenue-predicting model.
                         </p>
                         <a href="#">View Project</a>
                     </div>
@@ -340,14 +400,14 @@
                     </span>
                 </div>
                 <div class="col-sm-5 social">
-                    <ul>
+                    <!-- <ul>
                         <li>
                             <a href="https://www.linkedin.com/in/yuhuilin98" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="https://github.com/YHL996" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </div>
