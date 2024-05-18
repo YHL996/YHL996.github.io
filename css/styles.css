@@ -88,5 +88,5 @@ body.active{overflow:hidden;z-index:-1}
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    height: 5px; /* Fixed width to prevent wrapping from changing block size */
+    height: 60px; /* Fixed width to prevent wrapping from changing block size */
   }
