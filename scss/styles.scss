@@ -577,6 +577,10 @@ footer {
 */
 
 #education {
+    background-image: url(../images/background.jpg);
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
@@ -963,7 +967,7 @@ footer {
     // #lead-down {
     //     display: none;
     // }
-    .lead-down .fa-chevron-down {
+    .lead-down {
         display: none;
     }
 

@@ -96,4 +96,24 @@
         });
     });
 
+    const phrases = ["Data-driven professional turning insights into action.", "Lifelong learner on a journey of discovery.", "Fitness Enthusiast sculpting both body and mind."];
+    let currentIndex = 0;
+    let currentPhrase = "";
+    let charIndex = 0;
+    
+    function changeText() {
+        if (charIndex < phrases[currentIndex].length) {
+            currentPhrase += phrases[currentIndex].charAt(charIndex);
+            document.getElementById("dynamicText").textContent = currentPhrase;
+            charIndex++;
+        } else {
+            // Reset charIndex and currentPhrase for the next phrase
+            charIndex = 0;
+            currentPhrase = "";
+            currentIndex = (currentIndex + 1) % phrases.length;
+        }
+    }
+    
+    setInterval(changeText, 75); // Adjust interval as needed
+
 })(jQuery);
