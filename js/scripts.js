@@ -100,7 +100,7 @@
     let currentIndex = 0;
     let currentPhrase = "";
     let charIndex = 0;
-    
+
     function changeText() {
         if (charIndex < phrases[currentIndex].length) {
             currentPhrase += phrases[currentIndex].charAt(charIndex);
@@ -111,9 +111,10 @@
             charIndex = 0;
             currentPhrase = "";
             currentIndex = (currentIndex + 1) % phrases.length;
+            
         }
     }
-    
-    setInterval(changeText, 75); // Adjust interval as needed
+
+    setInterval(changeText, 75);
 
 })(jQuery);

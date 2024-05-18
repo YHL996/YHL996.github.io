@@ -76,9 +76,17 @@ body.active{overflow:hidden;z-index:-1}
 }
 
 #lead-content h2 {
-    color: rgba(24, 20, 20, 0.8)
+    color: rgba(24, 20, 20, 0.8);
+    margin-bottom: 50px;
 }
 
 #education h2 {
     z-index: 0;
 }
+
+#dynamicText {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 5px; /* Fixed width to prevent wrapping from changing block size */
+  }
