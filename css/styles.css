@@ -90,3 +90,7 @@ body.active{overflow:hidden;z-index:-1}
     padding-right: 50px;
     height: 60px; /* Fixed width to prevent wrapping from changing block size */
   }
+
+#tools {
+    margin-top: 50px;
+}
